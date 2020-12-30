@@ -1,0 +1,1 @@
+This section is mostly based on [this](https://aws.amazon.com/blogs/machine-learning/preprocess-input-data-before-making-predictions-using-amazon-sagemaker-inference-pipelines-and-scikit-learn/) article. There were a few fixes, most notably addressing the mismatching number of inputs for the transformer (see dummy column in `preprocess.py`) as well as a few deprecations.
